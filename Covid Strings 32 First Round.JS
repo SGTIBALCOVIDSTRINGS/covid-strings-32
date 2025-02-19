@@ -1,44 +1,44 @@
-<doc.type html>
-<script>
-Html
-Head
-Utf8
-ViewportContent=Width=Device-Width, Initial-Scale=ONE>
-Title Covid Strings32 First Round Bracket
-<Div Id=Bracket Class=Bracket></Div>
-<Script Src=Bracket.JS>
-Link Rel=Stylesheet Href=Css
-Head
-Body
-Bracket-Container{}
-Matchup
-Solid Zero;
-Padding 
-Text Align Center 
-Filename=Covid Strings32 First Round.JS
-First Round=(Highest Overall Seed,Second Highest Seed, Third Highest Seed, First Middle Seed,Second Middle Seed, Third Lowest Seed,Second Lowest Seed,Lowest Overall Seed)
-Highest Overall Seed =Seed1
-Second Highest Seed=Seed2
-Third Highest Seed=Seed3
-Firstmiddleseed=Seed4
-Second Middle Seed =Seed5
-Third Lowest Seed= Seed6
-Second Lowest Seed =Seed7
-Lowest Overall Seed =Seed8
-Covid Strings Team List32=[White,Black,Blue,Pink,Red,Burgundy,Purple,Orange]
-Matchup1=(Red Versus Pink)
-Matchup2=(Burgundy Versus Blue)
-Matchup3=(Purple Versus Black)
-Matchup4=(Orange Versus White)
-Document.CreateElement 
+doc.type.html
+script
+html
+head
+utf8
+viewportcontent=width=device-width,initial-scale=one
+title covid strings32 first round bracket
+div id=bracket class=bracket></div>
+script src=bracket.js
+link rel=stylesheet href=css
+head
+body
+bracket-container{}
+matchup
+solid zero;
+padding 
+text align center 
+filename=covid strings32 first round.js
+first round=(highest overall seed,second highest seed, third highest seed, first middle seed,second middle seed, third lowest seed,second lowest seed,lowest overall seed)
+highest overall seed =seed1
+second highest seed=seed2
+third highest seed=seed3
+first middle seed=seed4
+second middle seed=seed5
+third lowest seed=seed6
+second lowest seed=seed7
+lowest overall seed=seed8
+covid strings team list32=[white,black,blue,pink,red,burgundy,purple,orange]
+matchup1=(red versus pink)
+matchup2=(burgundy versus blue)
+matchup3=(purple versus black)
+matchup4=(orange versus white)
+document.create element 
 matchup div.class name=(matchup)
 matchupdiv.inner html=[matchup]
 rounddiv.appendchild(matchup)
 for (i in covid strings first round)
-Round Div=Create Element
+round div=create element
 round div class name=covid strings32 first round
 bracket.appendchild(round div)
-If (event.target.covid strings seed list.contains(matchup))
+if (event.target.covid strings seed list.contains(matchup))
 return matchup
 else:
 add matchup
