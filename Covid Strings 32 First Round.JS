@@ -74,7 +74,7 @@ result=declarewinner(matchup2)
 if blue score>=forty:
 console.log(blue curve crushers win)
 else:
-console.log(burgundy rebuilders Win)
+console.log(burgundy rebuilders win)
 result=declarewinne(matchup3)
 if black score>=forty:
 console.log(black night riders win)
